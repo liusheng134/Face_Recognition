@@ -81,11 +81,11 @@ CFP_FP average acc:92.8286
 python Train_arc_focal.py
 ```
 
-$loss = loss_{focalloss}+\lambda loss_{centorloss}$
+$ loss = loss_{focalloss}+\lambda loss_{centorloss} $
 
 $\lambda$值的选取没有用网格搜索等技巧选取最佳值，只简单的选取0.005和0.03两个值。
 
-$\lambda$==0.005:
+$\lambda $==0.005:
 
 LFW average acc:99.6333
 
