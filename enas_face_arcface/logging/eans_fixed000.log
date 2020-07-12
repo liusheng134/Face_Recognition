@@ -1,0 +1,772 @@
+MS1M dataset size:  5822653 / 85742
+training and validation data loaded
+Loading checkpoint './ENAS.pth.tar'
+Loaded checkpoint './ENAS.pth.tar' (epoch 14)
+Best architecture:
+[0]
+[0 0]
+[0 1 0]
+[0 0 0 0]
+[0 0 0 0 0]
+[0 1 0 0 0 0]
+[0 0 0 0 0 0 0]
+[0 1 0 1 0 1 0 1]
+[0 0 0 0 0 0 0 0 0]
+[0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0]
+[0 1 0 1 0 0 0 0 0 1 1 0]
+[0 0 0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0 0 0 1]
+[0 0 0 0 0 1 0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1]
+[0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0]
+Validation accuracy: 0.7799999713897705
+MobileFaceNet face detection model loaded
+training kicked off..
+----------
+Epoch 0/11, Iters: 000100, loss: 48.6815, train_accuracy: 0.0000, time: 0.84 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 000200, loss: 47.7607, train_accuracy: 0.0000, time: 0.81 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 000300, loss: 54.7786, train_accuracy: 0.0000, time: 0.81 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 000400, loss: 50.9613, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 000500, loss: 48.7396, train_accuracy: 0.0000, time: 0.76 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 000600, loss: 48.5582, train_accuracy: 0.0000, time: 0.76 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 000700, loss: 48.0126, train_accuracy: 0.0000, time: 0.78 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 000800, loss: 47.8295, train_accuracy: 0.0000, time: 0.76 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 000900, loss: 47.7326, train_accuracy: 0.0000, time: 0.78 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 001000, loss: 47.9912, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 001100, loss: 46.6104, train_accuracy: 0.0000, time: 0.78 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 001200, loss: 47.1638, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 001300, loss: 47.0581, train_accuracy: 0.0000, time: 0.75 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 001400, loss: 47.1220, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 001500, loss: 47.9097, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 001600, loss: 47.3657, train_accuracy: 0.0000, time: 0.75 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 001700, loss: 46.8749, train_accuracy: 0.0000, time: 0.75 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 001800, loss: 46.6673, train_accuracy: 0.0000, time: 0.76 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 001900, loss: 46.1862, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 002000, loss: 46.1813, train_accuracy: 0.0000, time: 0.76 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 002100, loss: 46.5357, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 002200, loss: 46.3323, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 002300, loss: 45.8946, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 002400, loss: 46.0272, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 002500, loss: 45.6363, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 002600, loss: 45.7240, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 002700, loss: 45.6106, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 002800, loss: 45.4133, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 002900, loss: 45.3538, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 003000, loss: 46.1436, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:69.0167 average threshold:1.8446
+Epoch 0/11,CFP_FP average acc:60.7857 average threshold:1.9981
+Epoch 0/11,AgeDB30 average acc:55.6167 average threshold:1.9739
+Epoch 0/11, Iters: 003100, loss: 45.8501, train_accuracy: 0.0000, time: 1.64 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 003200, loss: 45.4203, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 003300, loss: 46.0012, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 003400, loss: 45.1983, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 003500, loss: 45.6183, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 003600, loss: 45.4087, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 003700, loss: 45.6939, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 003800, loss: 45.2437, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 003900, loss: 45.6617, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 004000, loss: 45.1477, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 004100, loss: 45.3951, train_accuracy: 0.0000, time: 0.65 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 004200, loss: 44.8913, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 004300, loss: 44.7167, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 004400, loss: 45.0213, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 004500, loss: 45.1331, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 004600, loss: 45.3305, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 004700, loss: 44.5367, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 004800, loss: 45.2429, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 004900, loss: 44.3210, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 005000, loss: 44.3189, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 005100, loss: 44.1841, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 005200, loss: 44.7281, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 005300, loss: 44.7826, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 005400, loss: 44.7993, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 005500, loss: 44.6464, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 005600, loss: 44.1382, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 005700, loss: 44.4206, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 005800, loss: 44.6177, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 005900, loss: 44.4228, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 006000, loss: 44.3669, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:78.4667 average threshold:1.6834
+Epoch 0/11,CFP_FP average acc:65.7857 average threshold:1.9904
+Epoch 0/11,AgeDB30 average acc:60.7167 average threshold:1.9122
+Epoch 0/11, Iters: 006100, loss: 44.1790, train_accuracy: 0.0000, time: 1.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 006200, loss: 44.0265, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 006300, loss: 44.0625, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 006400, loss: 44.1919, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 006500, loss: 43.8844, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 006600, loss: 44.1148, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 006700, loss: 44.4613, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 006800, loss: 44.1058, train_accuracy: 0.0000, time: 0.75 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 006900, loss: 43.3641, train_accuracy: 0.0000, time: 0.80 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 007000, loss: 44.1385, train_accuracy: 0.0000, time: 0.81 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 007100, loss: 43.4829, train_accuracy: 0.0000, time: 0.84 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 007200, loss: 43.5043, train_accuracy: 0.0000, time: 0.83 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 007300, loss: 43.9807, train_accuracy: 0.0000, time: 0.83 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 007400, loss: 43.0796, train_accuracy: 0.0000, time: 0.82 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 007500, loss: 43.6432, train_accuracy: 0.0000, time: 0.80 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 007600, loss: 43.0735, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 007700, loss: 43.5035, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 007800, loss: 43.9283, train_accuracy: 0.0000, time: 0.78 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 007900, loss: 43.5448, train_accuracy: 0.0000, time: 0.79 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 008000, loss: 42.9167, train_accuracy: 0.0000, time: 0.80 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 008100, loss: 44.0857, train_accuracy: 0.0000, time: 0.80 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 008200, loss: 42.5998, train_accuracy: 0.0000, time: 0.78 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 008300, loss: 43.3483, train_accuracy: 0.0000, time: 0.78 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 008400, loss: 44.2686, train_accuracy: 0.0000, time: 0.80 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 008500, loss: 42.8135, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 008600, loss: 43.6363, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 008700, loss: 43.1522, train_accuracy: 0.0000, time: 0.78 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 008800, loss: 42.0801, train_accuracy: 0.0000, time: 0.79 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 008900, loss: 42.3520, train_accuracy: 0.0000, time: 0.79 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 009000, loss: 42.8180, train_accuracy: 0.0000, time: 0.79 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:81.0667 average threshold:1.7223
+Epoch 0/11,CFP_FP average acc:67.1143 average threshold:1.9518
+Epoch 0/11,AgeDB30 average acc:65.6167 average threshold:1.8835
+Epoch 0/11, Iters: 009100, loss: 43.0986, train_accuracy: 0.0000, time: 1.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 009200, loss: 42.0665, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 009300, loss: 42.6309, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 009400, loss: 43.3304, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 009500, loss: 42.5586, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 009600, loss: 42.6630, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 009700, loss: 42.5211, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 009800, loss: 42.2340, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 009900, loss: 41.6339, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 010000, loss: 42.8484, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 010100, loss: 42.0018, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 010200, loss: 42.3166, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 010300, loss: 41.9569, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 010400, loss: 42.2426, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 010500, loss: 42.4912, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 010600, loss: 41.8022, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 010700, loss: 42.4007, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 010800, loss: 41.8262, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 010900, loss: 42.2850, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 011000, loss: 42.6334, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 011100, loss: 41.9595, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 011200, loss: 41.3727, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 011300, loss: 42.4583, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 011400, loss: 41.0449, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 011500, loss: 42.1265, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 011600, loss: 41.0434, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 011700, loss: 40.6818, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 011800, loss: 41.4093, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 011900, loss: 40.5624, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 012000, loss: 41.2121, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:82.6500 average threshold:1.7089
+Epoch 0/11,CFP_FP average acc:66.6429 average threshold:1.9214
+Epoch 0/11,AgeDB30 average acc:65.8167 average threshold:1.8183
+Epoch 0/11, Iters: 012100, loss: 40.7257, train_accuracy: 0.0000, time: 1.65 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 012200, loss: 40.7645, train_accuracy: 0.0000, time: 0.65 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 012300, loss: 41.5995, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 012400, loss: 40.6590, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 012500, loss: 41.5982, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 012600, loss: 40.7028, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 012700, loss: 40.8630, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 012800, loss: 41.6492, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 012900, loss: 41.0895, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 013000, loss: 41.1619, train_accuracy: 0.0000, time: 0.76 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 013100, loss: 40.3189, train_accuracy: 0.0000, time: 0.78 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 013200, loss: 40.9056, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 013300, loss: 40.9233, train_accuracy: 0.0000, time: 0.78 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 013400, loss: 41.3256, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 013500, loss: 39.8767, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 013600, loss: 39.2495, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 013700, loss: 41.1410, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 013800, loss: 39.0341, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 013900, loss: 39.9545, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 014000, loss: 39.5404, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 014100, loss: 41.3867, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 014200, loss: 40.7664, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 014300, loss: 39.8268, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 014400, loss: 40.0846, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 014500, loss: 39.7086, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 014600, loss: 39.6827, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 014700, loss: 40.3956, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 014800, loss: 39.5509, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 014900, loss: 38.7148, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 015000, loss: 39.4468, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:85.3833 average threshold:1.6947
+Epoch 0/11,CFP_FP average acc:67.9857 average threshold:1.9246
+Epoch 0/11,AgeDB30 average acc:68.6500 average threshold:1.8612
+Epoch 0/11, Iters: 015100, loss: 39.9611, train_accuracy: 0.0000, time: 1.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 015200, loss: 39.4501, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 015300, loss: 40.4698, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 015400, loss: 38.6785, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 015500, loss: 40.3234, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 015600, loss: 38.9348, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 015700, loss: 39.9350, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 015800, loss: 39.2965, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 015900, loss: 40.1963, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 016000, loss: 39.6143, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 016100, loss: 38.8700, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 016200, loss: 39.5507, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 016300, loss: 38.0956, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 016400, loss: 38.5463, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 016500, loss: 39.8453, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 016600, loss: 39.5930, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 016700, loss: 39.6861, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 016800, loss: 37.4835, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 016900, loss: 39.8207, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 017000, loss: 40.0173, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 017100, loss: 39.2426, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 017200, loss: 38.8828, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 017300, loss: 38.6721, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 017400, loss: 38.4329, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 017500, loss: 39.1105, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 017600, loss: 38.4794, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 017700, loss: 38.1511, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 017800, loss: 38.2329, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 017900, loss: 38.9649, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 018000, loss: 37.7474, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:87.4000 average threshold:1.6788
+Epoch 0/11,CFP_FP average acc:68.5143 average threshold:1.9101
+Epoch 0/11,AgeDB30 average acc:69.7000 average threshold:1.8518
+Epoch 0/11, Iters: 018100, loss: 38.6390, train_accuracy: 0.0000, time: 1.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 018200, loss: 38.5671, train_accuracy: 0.0000, time: 0.65 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 018300, loss: 39.6048, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 018400, loss: 38.7860, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 018500, loss: 36.0899, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 018600, loss: 37.4628, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 018700, loss: 36.6419, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 018800, loss: 37.7337, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 018900, loss: 37.7423, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 019000, loss: 36.9915, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 019100, loss: 36.7254, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 019200, loss: 37.1572, train_accuracy: 0.0000, time: 0.76 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 019300, loss: 36.7028, train_accuracy: 0.0000, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 019400, loss: 36.9709, train_accuracy: 0.0000, time: 0.75 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 019500, loss: 37.8473, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 019600, loss: 38.2425, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 019700, loss: 37.3365, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 019800, loss: 35.9179, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 019900, loss: 37.5705, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 020000, loss: 35.9963, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 020100, loss: 37.5130, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 020200, loss: 35.9335, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 020300, loss: 38.0290, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 020400, loss: 36.5722, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 020500, loss: 37.2144, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 020600, loss: 38.0115, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 020700, loss: 36.6933, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 020800, loss: 35.8050, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 020900, loss: 36.5589, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 021000, loss: 35.8698, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:90.0167 average threshold:1.6367
+Epoch 0/11,CFP_FP average acc:69.7429 average threshold:1.9281
+Epoch 0/11,AgeDB30 average acc:73.2167 average threshold:1.8002
+Epoch 0/11, Iters: 021100, loss: 36.2072, train_accuracy: 0.0000, time: 1.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 021200, loss: 37.9389, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 021300, loss: 36.7243, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 021400, loss: 35.8233, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 021500, loss: 34.9406, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 021600, loss: 36.4646, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 021700, loss: 35.1000, train_accuracy: 0.0100, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 021800, loss: 35.4207, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 021900, loss: 37.0917, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 022000, loss: 36.5350, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 022100, loss: 35.8035, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 022200, loss: 36.2767, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 022300, loss: 36.4147, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 022400, loss: 34.6261, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 022500, loss: 36.7157, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 022600, loss: 34.9506, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 022700, loss: 37.0419, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 022800, loss: 36.1615, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 022900, loss: 34.4710, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 023000, loss: 34.9964, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 023100, loss: 36.7140, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 023200, loss: 35.3119, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 023300, loss: 36.8623, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 023400, loss: 36.5425, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 023500, loss: 35.1075, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 023600, loss: 33.6327, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 023700, loss: 36.4337, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 023800, loss: 36.4939, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 023900, loss: 35.1738, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 024000, loss: 36.0764, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:90.6167 average threshold:1.6423
+Epoch 0/11,CFP_FP average acc:67.4714 average threshold:1.9395
+Epoch 0/11,AgeDB30 average acc:74.3333 average threshold:1.8281
+Epoch 0/11, Iters: 024100, loss: 36.2785, train_accuracy: 0.0000, time: 1.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 024200, loss: 33.4193, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 024300, loss: 34.3831, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 024400, loss: 34.7829, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 024500, loss: 33.1995, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 024600, loss: 35.3262, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 024700, loss: 35.9353, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 024800, loss: 35.6254, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 024900, loss: 34.7101, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 025000, loss: 35.1259, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 025100, loss: 35.0653, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 025200, loss: 35.6486, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 025300, loss: 34.7696, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 025400, loss: 35.9648, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 025500, loss: 33.8427, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 025600, loss: 36.2031, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 025700, loss: 34.1939, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 025800, loss: 35.5585, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 025900, loss: 34.6314, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 026000, loss: 33.4791, train_accuracy: 0.0100, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 026100, loss: 34.2388, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 026200, loss: 35.0877, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 026300, loss: 35.3227, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 026400, loss: 33.8535, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 026500, loss: 33.6508, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 026600, loss: 34.4045, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 026700, loss: 34.0698, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 026800, loss: 35.1663, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 026900, loss: 32.7523, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 027000, loss: 33.9708, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:91.3667 average threshold:1.6267
+Epoch 0/11,CFP_FP average acc:68.7714 average threshold:1.9273
+Epoch 0/11,AgeDB30 average acc:75.8833 average threshold:1.8105
+Epoch 0/11, Iters: 027100, loss: 33.3237, train_accuracy: 0.0000, time: 1.65 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 027200, loss: 34.0225, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 027300, loss: 34.7707, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 027400, loss: 33.9431, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 027500, loss: 34.7248, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 027600, loss: 33.3889, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 027700, loss: 35.4030, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 027800, loss: 33.1851, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 027900, loss: 33.1864, train_accuracy: 0.0100, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 028000, loss: 35.8219, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 028100, loss: 33.2594, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 028200, loss: 33.6813, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 028300, loss: 33.7227, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 028400, loss: 34.5544, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 028500, loss: 32.2889, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 028600, loss: 35.9665, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 028700, loss: 35.4377, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 028800, loss: 32.9851, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 028900, loss: 33.5604, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 029000, loss: 32.6085, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 029100, loss: 33.8888, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 029200, loss: 34.5458, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 029300, loss: 34.3405, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 029400, loss: 34.6269, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 029500, loss: 33.8390, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 029600, loss: 32.0441, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 029700, loss: 32.3185, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 029800, loss: 32.5066, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 029900, loss: 33.1496, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 030000, loss: 34.1347, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:92.4833 average threshold:1.6099
+Epoch 0/11,CFP_FP average acc:69.6429 average threshold:1.8861
+Epoch 0/11,AgeDB30 average acc:76.8667 average threshold:1.7602
+Epoch 0/11, Iters: 030100, loss: 34.5102, train_accuracy: 0.0000, time: 1.64 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 030200, loss: 32.6099, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 030300, loss: 33.6139, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 030400, loss: 33.8552, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 030500, loss: 32.9997, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 030600, loss: 34.2892, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 030700, loss: 34.2708, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 030800, loss: 35.1791, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 030900, loss: 34.0997, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 031000, loss: 32.9217, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 031100, loss: 31.7237, train_accuracy: 0.0000, time: 0.75 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 031200, loss: 33.5105, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 031300, loss: 34.2937, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 031400, loss: 34.5415, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 031500, loss: 33.4264, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 031600, loss: 33.3760, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 031700, loss: 33.2439, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 031800, loss: 32.6814, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 031900, loss: 34.2750, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 032000, loss: 31.9446, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 032100, loss: 33.7238, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 032200, loss: 35.0709, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 032300, loss: 35.5373, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 032400, loss: 32.9317, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 032500, loss: 31.9082, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 032600, loss: 33.9776, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 032700, loss: 30.7618, train_accuracy: 0.0100, time: 0.77 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 032800, loss: 32.4015, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 032900, loss: 33.4978, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 033000, loss: 33.4667, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:92.9667 average threshold:1.6130
+Epoch 0/11,CFP_FP average acc:69.8143 average threshold:1.8902
+Epoch 0/11,AgeDB30 average acc:77.7833 average threshold:1.8001
+Epoch 0/11, Iters: 033100, loss: 32.8109, train_accuracy: 0.0000, time: 1.64 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 033200, loss: 31.9405, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 033300, loss: 32.7077, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 033400, loss: 34.0496, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 033500, loss: 34.6436, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 033600, loss: 30.7729, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 033700, loss: 35.0365, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 033800, loss: 31.9293, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 033900, loss: 32.8305, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 034000, loss: 33.2114, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 034100, loss: 34.3298, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 034200, loss: 33.7051, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 034300, loss: 31.7035, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 034400, loss: 33.0516, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 034500, loss: 32.1251, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 034600, loss: 32.0542, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 034700, loss: 33.4556, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 034800, loss: 32.2606, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 034900, loss: 33.4315, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 035000, loss: 34.3973, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 035100, loss: 31.9582, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 035200, loss: 33.7393, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 035300, loss: 32.9000, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 035400, loss: 31.3444, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 035500, loss: 34.1965, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 035600, loss: 32.9444, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 035700, loss: 33.7049, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 035800, loss: 33.0073, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 035900, loss: 34.5230, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 036000, loss: 32.9065, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:92.6667 average threshold:1.6247
+Epoch 0/11,CFP_FP average acc:70.2857 average threshold:1.9213
+Epoch 0/11,AgeDB30 average acc:77.5500 average threshold:1.7889
+Epoch 0/11, Iters: 036100, loss: 31.5861, train_accuracy: 0.0000, time: 1.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 036200, loss: 31.5327, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 036300, loss: 31.4305, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 036400, loss: 32.6058, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 036500, loss: 33.8135, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 036600, loss: 32.3748, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 036700, loss: 30.9705, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 036800, loss: 33.2937, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 036900, loss: 32.4773, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 037000, loss: 31.8584, train_accuracy: 0.0000, time: 0.65 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 037100, loss: 33.0476, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 037200, loss: 32.0439, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 037300, loss: 31.4847, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 037400, loss: 32.2987, train_accuracy: 0.0100, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 037500, loss: 32.1133, train_accuracy: 0.0000, time: 0.75 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 037600, loss: 32.7067, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 037700, loss: 31.3894, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 037800, loss: 32.9196, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 037900, loss: 32.9932, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 038000, loss: 33.5165, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 038100, loss: 31.8479, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 038200, loss: 32.5510, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 038300, loss: 33.7721, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 038400, loss: 32.8148, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 038500, loss: 32.3645, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 038600, loss: 33.9934, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 038700, loss: 32.0656, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 038800, loss: 31.2727, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 038900, loss: 31.2430, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 039000, loss: 33.2751, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:93.2667 average threshold:1.6075
+Epoch 0/11,CFP_FP average acc:70.9286 average threshold:1.9000
+Epoch 0/11,AgeDB30 average acc:78.4833 average threshold:1.7891
+Epoch 0/11, Iters: 039100, loss: 33.8846, train_accuracy: 0.0000, time: 1.65 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 039200, loss: 32.2119, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 039300, loss: 32.7035, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 039400, loss: 33.9505, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 039500, loss: 32.9183, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 039600, loss: 31.8390, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 039700, loss: 31.9689, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 039800, loss: 30.1220, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 039900, loss: 32.0636, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 040000, loss: 33.2730, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 040100, loss: 33.1092, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 040200, loss: 30.2547, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 040300, loss: 32.0110, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 040400, loss: 30.0340, train_accuracy: 0.0200, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 040500, loss: 31.5569, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 040600, loss: 31.4684, train_accuracy: 0.0100, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 040700, loss: 33.1731, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 040800, loss: 32.5934, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 040900, loss: 32.1721, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 041000, loss: 34.5760, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 041100, loss: 31.9273, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 041200, loss: 33.5940, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 041300, loss: 33.3721, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 041400, loss: 32.5385, train_accuracy: 0.0100, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 041500, loss: 31.9608, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 041600, loss: 32.6262, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 041700, loss: 32.3203, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 041800, loss: 32.4740, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 041900, loss: 32.9126, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 042000, loss: 31.4906, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:93.5833 average threshold:1.6115
+Epoch 0/11,CFP_FP average acc:70.3571 average threshold:1.8858
+Epoch 0/11,AgeDB30 average acc:79.5167 average threshold:1.7746
+Epoch 0/11, Iters: 042100, loss: 31.5674, train_accuracy: 0.0000, time: 1.64 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 042200, loss: 32.1744, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 042300, loss: 31.2490, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 042400, loss: 31.8055, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 042500, loss: 32.6000, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 042600, loss: 32.5393, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 042700, loss: 31.8365, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 042800, loss: 30.8154, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 042900, loss: 33.2566, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 043000, loss: 31.8612, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 043100, loss: 31.3753, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 043200, loss: 32.3716, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 043300, loss: 33.1425, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 043400, loss: 32.0889, train_accuracy: 0.0000, time: 0.81 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 043500, loss: 32.6160, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 043600, loss: 30.8271, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 043700, loss: 32.5788, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 043800, loss: 30.4157, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 043900, loss: 32.0336, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 044000, loss: 30.3093, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 044100, loss: 30.8230, train_accuracy: 0.0000, time: 0.79 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 044200, loss: 31.9345, train_accuracy: 0.0100, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 044300, loss: 30.0020, train_accuracy: 0.0000, time: 0.75 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 044400, loss: 33.5218, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 044500, loss: 31.4764, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 044600, loss: 32.9840, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 044700, loss: 30.4350, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 044800, loss: 33.2374, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 044900, loss: 31.4512, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 045000, loss: 30.2102, train_accuracy: 0.0100, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:94.0500 average threshold:1.5835
+Epoch 0/11,CFP_FP average acc:71.1429 average threshold:1.8805
+Epoch 0/11,AgeDB30 average acc:79.7333 average threshold:1.7654
+Epoch 0/11, Iters: 045100, loss: 32.5095, train_accuracy: 0.0000, time: 1.75 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 045200, loss: 32.4159, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 045300, loss: 31.7934, train_accuracy: 0.0000, time: 0.64 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 045400, loss: 31.8442, train_accuracy: 0.0000, time: 0.64 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 045500, loss: 30.4750, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 045600, loss: 29.1592, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 045700, loss: 33.7133, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 045800, loss: 30.9944, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 045900, loss: 30.1293, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 046000, loss: 31.4128, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 046100, loss: 30.5355, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 046200, loss: 31.8368, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 046300, loss: 32.3521, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 046400, loss: 31.3526, train_accuracy: 0.0100, time: 0.65 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 046500, loss: 32.5522, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 046600, loss: 31.8006, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 046700, loss: 33.2452, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 046800, loss: 30.8480, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 046900, loss: 33.0166, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 047000, loss: 32.4006, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 047100, loss: 33.4714, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 047200, loss: 31.3685, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 047300, loss: 32.3326, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 047400, loss: 33.8060, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 047500, loss: 31.8859, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 047600, loss: 33.2100, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 047700, loss: 32.2601, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 047800, loss: 31.2592, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 047900, loss: 32.8699, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 048000, loss: 32.5781, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:94.0500 average threshold:1.6313
+Epoch 0/11,CFP_FP average acc:70.3000 average threshold:1.9144
+Epoch 0/11,AgeDB30 average acc:79.5667 average threshold:1.8093
+Epoch 0/11, Iters: 048100, loss: 33.3689, train_accuracy: 0.0000, time: 1.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 048200, loss: 32.8054, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 048300, loss: 29.8262, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 048400, loss: 30.2410, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 048500, loss: 30.5643, train_accuracy: 0.0100, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 048600, loss: 30.5182, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 048700, loss: 31.3753, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 048800, loss: 31.9398, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 048900, loss: 30.1109, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 049000, loss: 32.2511, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 049100, loss: 31.2570, train_accuracy: 0.0100, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 049200, loss: 30.2021, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 049300, loss: 32.7372, train_accuracy: 0.0000, time: 0.76 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 049400, loss: 33.0296, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 049500, loss: 30.9543, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 049600, loss: 31.5347, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 049700, loss: 30.8440, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 049800, loss: 31.0935, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 049900, loss: 31.1646, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 050000, loss: 31.2819, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 050100, loss: 33.8513, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 050200, loss: 30.0695, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 050300, loss: 30.3307, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 050400, loss: 30.7637, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 050500, loss: 31.6425, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 050600, loss: 32.0826, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 050700, loss: 31.8149, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 050800, loss: 30.8717, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 050900, loss: 30.7026, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 051000, loss: 32.5780, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:93.8500 average threshold:1.6060
+Epoch 0/11,CFP_FP average acc:71.3000 average threshold:1.9002
+Epoch 0/11,AgeDB30 average acc:79.3833 average threshold:1.7416
+Epoch 0/11, Iters: 051100, loss: 30.5851, train_accuracy: 0.0000, time: 1.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 051200, loss: 31.3376, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 051300, loss: 32.4239, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 051400, loss: 31.3742, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 051500, loss: 31.4868, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 051600, loss: 32.4783, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 051700, loss: 29.5155, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 051800, loss: 31.2379, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 051900, loss: 32.5027, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 052000, loss: 31.0369, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 052100, loss: 31.9209, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 052200, loss: 32.0819, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 052300, loss: 30.4934, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 052400, loss: 31.6166, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 052500, loss: 30.2636, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 052600, loss: 33.1128, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 052700, loss: 31.3745, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 052800, loss: 29.5804, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 052900, loss: 28.9283, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 053000, loss: 30.8190, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 053100, loss: 29.8072, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 053200, loss: 31.5034, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 053300, loss: 31.0480, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 053400, loss: 30.0876, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 053500, loss: 30.7946, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 053600, loss: 33.7089, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 053700, loss: 31.2241, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 053800, loss: 30.4712, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 053900, loss: 29.8061, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 054000, loss: 31.2545, train_accuracy: 0.0100, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:94.1333 average threshold:1.5757
+Epoch 0/11,CFP_FP average acc:71.9143 average threshold:1.9092
+Epoch 0/11,AgeDB30 average acc:80.0667 average threshold:1.7837
+Epoch 0/11, Iters: 054100, loss: 31.6424, train_accuracy: 0.0000, time: 1.65 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 054200, loss: 29.5243, train_accuracy: 0.0100, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 054300, loss: 31.3934, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 054400, loss: 28.3702, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 054500, loss: 32.3629, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 054600, loss: 31.6165, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 054700, loss: 32.3982, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 054800, loss: 29.5093, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 054900, loss: 31.9897, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 055000, loss: 30.2953, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 055100, loss: 29.5550, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 055200, loss: 31.0422, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 055300, loss: 29.5256, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 055400, loss: 31.6879, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 055500, loss: 29.9925, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 055600, loss: 31.2723, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 055700, loss: 29.8952, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 055800, loss: 31.5127, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 055900, loss: 32.6405, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 056000, loss: 29.9537, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 056100, loss: 31.1666, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 056200, loss: 33.5299, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 056300, loss: 30.0018, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 056400, loss: 32.4827, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 056500, loss: 30.4235, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 056600, loss: 30.4426, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 056700, loss: 30.2128, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 056800, loss: 31.1152, train_accuracy: 0.0100, time: 0.71 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 056900, loss: 29.7648, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 057000, loss: 32.8779, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11,LFW average acc:94.1000 average threshold:1.6018
+Epoch 0/11,CFP_FP average acc:71.3000 average threshold:1.9087
+Epoch 0/11,AgeDB30 average acc:79.2833 average threshold:1.7678
+Epoch 0/11, Iters: 057100, loss: 30.6872, train_accuracy: 0.0000, time: 1.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 057200, loss: 30.2403, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 057300, loss: 30.9830, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 057400, loss: 30.4913, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 057500, loss: 30.7775, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 057600, loss: 29.6216, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 057700, loss: 30.9502, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 057800, loss: 31.5698, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 057900, loss: 30.9350, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 058000, loss: 30.2988, train_accuracy: 0.0000, time: 0.66 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 058100, loss: 29.5780, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 0/11, Iters: 058200, loss: 30.3670, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 058300, loss: 30.7030, train_accuracy: 0.0000, time: 0.52 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 058400, loss: 31.4890, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 058500, loss: 31.0583, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 058600, loss: 28.6369, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 058700, loss: 30.2210, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 058800, loss: 30.1855, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 058900, loss: 30.8433, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 059000, loss: 30.7601, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 059100, loss: 29.9595, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 059200, loss: 32.0035, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 059300, loss: 30.7648, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 059400, loss: 31.3834, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 059500, loss: 32.2213, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 059600, loss: 29.6212, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 059700, loss: 31.0557, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 059800, loss: 30.4038, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 059900, loss: 30.2793, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 060000, loss: 29.8367, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 1/11,LFW average acc:94.4333 average threshold:1.5865
+Epoch 1/11,CFP_FP average acc:73.0429 average threshold:1.9019
+Epoch 1/11,AgeDB30 average acc:80.4833 average threshold:1.7710
+Epoch 1/11, Iters: 060100, loss: 28.4498, train_accuracy: 0.0000, time: 1.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 060200, loss: 30.8233, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 060300, loss: 31.6047, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 060400, loss: 29.0259, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 060500, loss: 30.0938, train_accuracy: 0.0100, time: 0.67 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 060600, loss: 31.6620, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 060700, loss: 28.8835, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 060800, loss: 29.2778, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 060900, loss: 30.8701, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 061000, loss: 29.8168, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 061100, loss: 31.5658, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 061200, loss: 31.6653, train_accuracy: 0.0000, time: 0.76 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 061300, loss: 29.7496, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 061400, loss: 30.2099, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 061500, loss: 31.6252, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 061600, loss: 30.1559, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 061700, loss: 30.5280, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 061800, loss: 30.1432, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 061900, loss: 30.9915, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 062000, loss: 33.0749, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 062100, loss: 30.5698, train_accuracy: 0.0200, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 062200, loss: 32.3124, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 062300, loss: 30.2227, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 062400, loss: 31.0529, train_accuracy: 0.0000, time: 0.75 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 062500, loss: 30.6926, train_accuracy: 0.0100, time: 0.73 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 062600, loss: 28.8808, train_accuracy: 0.0100, time: 0.72 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 062700, loss: 31.4554, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 062800, loss: 31.7509, train_accuracy: 0.0100, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 062900, loss: 31.0471, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 063000, loss: 31.1354, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11,LFW average acc:94.5500 average threshold:1.6153
+Epoch 1/11,CFP_FP average acc:72.0000 average threshold:1.9155
+Epoch 1/11,AgeDB30 average acc:80.9667 average threshold:1.7571
+Epoch 1/11, Iters: 063100, loss: 30.8840, train_accuracy: 0.0000, time: 1.75 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 063200, loss: 31.2812, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 063300, loss: 30.9455, train_accuracy: 0.0100, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 063400, loss: 31.8436, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 063500, loss: 30.4483, train_accuracy: 0.0100, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 063600, loss: 31.4995, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 063700, loss: 30.7573, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 063800, loss: 28.2732, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 063900, loss: 31.3025, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 064000, loss: 30.5442, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 064100, loss: 31.2715, train_accuracy: 0.0000, time: 0.72 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 064200, loss: 30.6108, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 064300, loss: 30.2441, train_accuracy: 0.0100, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 064400, loss: 28.0179, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 064500, loss: 31.5675, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 064600, loss: 29.8653, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 064700, loss: 29.4429, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 064800, loss: 29.1438, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 064900, loss: 31.3507, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 065000, loss: 30.8871, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 065100, loss: 32.1244, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 065200, loss: 31.2010, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 065300, loss: 33.4605, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 065400, loss: 31.9089, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 065500, loss: 29.6123, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 065600, loss: 29.9495, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 065700, loss: 30.9547, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 065800, loss: 29.9746, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 065900, loss: 30.7390, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 066000, loss: 28.7995, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11,LFW average acc:94.4833 average threshold:1.6143
+Epoch 1/11,CFP_FP average acc:72.1429 average threshold:1.9016
+Epoch 1/11,AgeDB30 average acc:81.2667 average threshold:1.7594
+Epoch 1/11, Iters: 066100, loss: 31.4157, train_accuracy: 0.0000, time: 1.72 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 066200, loss: 29.8960, train_accuracy: 0.0000, time: 0.68 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 066300, loss: 28.7040, train_accuracy: 0.0100, time: 0.68 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 066400, loss: 31.9579, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 066500, loss: 30.3494, train_accuracy: 0.0100, time: 0.67 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 066600, loss: 32.1628, train_accuracy: 0.0000, time: 0.67 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 066700, loss: 31.4834, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 066800, loss: 29.9034, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 066900, loss: 29.8718, train_accuracy: 0.0000, time: 0.70 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 067000, loss: 31.1991, train_accuracy: 0.0100, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 067100, loss: 30.5714, train_accuracy: 0.0000, time: 0.69 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 067200, loss: 31.8473, train_accuracy: 0.0000, time: 0.71 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 067300, loss: 29.7064, train_accuracy: 0.0000, time: 0.73 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 067400, loss: 32.9968, train_accuracy: 0.0000, time: 0.74 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 067500, loss: 30.9567, train_accuracy: 0.0200, time: 0.75 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 067600, loss: 30.4637, train_accuracy: 0.0100, time: 0.76 s/iter, learning rate: 0.05
+Epoch 1/11, Iters: 067700, loss: 31.2570, train_accuracy: 0.0000, time: 0.80 s/iter, learning rate: 0.05
