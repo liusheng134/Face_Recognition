@@ -78,7 +78,7 @@ CFP_FP average acc:92.8286
 执行下面命令训练arcface+centorloss至模型收敛：
 
 ```
-python Train_arc_focal.py
+python Train_center_arc_focal.py.py
 ```
 
 $ loss = loss_{focalloss}+\lambda loss_{centorloss} $
