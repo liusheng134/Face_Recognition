@@ -8,7 +8,7 @@
 
 为了加快训练速度，用DataLoderX替代DataLoder。
 
-关于DataLoderX：[【pytorch】给训练踩踩油门-- Pytorch 加速数据读取](https://blog.csdn.net/shwan_ma/article/details/103331166)
+关于DataLoderX：[【pytorch】给训练踩踩油门-- Pytorch 加速数据读取](https://zhuanlan.zhihu.com/p/80695364)
 
 Pytorch多种优化方式集合:https://www.cnblogs.com/king-lps/p/10936374.html
 
